@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+#gameContainer{
+    text-align: center;
+    margin: 10px;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.flex-item {
+    margin: 5px;
+    padding: 5px;
+}

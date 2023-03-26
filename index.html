@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <div class="flex">
+            <label for="difficultySelector" class="white-text">Valitse vaikeustaso:</label>
+            <select name="difficultySelector" id="difficultySelector" class="flex-item">
+                <option value="easy">Helppo</option>
+                <option value="medium">Keskitaso</option>
+                <option value="hard">Vaikea</option>
+                <option value="expert">Supervaikea</option>
+            </select>
+            <button id="startBtn" class="button white-text">ALOITA</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
